@@ -13,8 +13,8 @@ public class todoService {
     List<todo> to = new ArrayList<>();
 
     public todoService(){
-        to.add(new todo(1, "kamalesh", "Fix Login Bug","Yet to Start"));
-        to.add( new todo(2, "Yugesh", "Review Code Changes","Yet to Start"));
+        to.add(new todo(1, "ram", "Fix Login Bug","Yet to Start"));
+        to.add( new todo(2, "prabhu", "Review Code Changes","Yet to Start"));
     }
 
     public List<todo> getAlltask(){
